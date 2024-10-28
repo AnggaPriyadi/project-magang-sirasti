@@ -1,0 +1,608 @@
+INFO - 2024-10-21 02:17:37 --> REDIRECTED ROUTE at http://localhost:8080/dashboard
+INFO - 2024-10-21 02:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-21 02:17:39 --> [DEPRECATED] Creation of dynamic property App\Modules\User\Controllers\UserController::$model is deprecated in APPPATH\Modules\User\Controllers\UserController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Modules\User\Controllers\UserController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-21 02:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-21 02:17:52 --> [DEPRECATED] Creation of dynamic property App\Modules\User\Controllers\UserController::$model is deprecated in APPPATH\Modules\User\Controllers\UserController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Modules\User\Controllers\UserController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-21 02:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 02:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-21 02:18:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "AssetManagement\index.php"
+[Method: GET, Route: asset-management]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('AssetManagement\\index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AssetManagement\\index', [], true)
+ 3 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(12): view('AssetManagement\\index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-21 02:24:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 02:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-21 02:24:18 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "AssetManagement\index.php"
+[Method: GET, Route: asset-management]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('AssetManagement\\index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AssetManagement\\index', [], true)
+ 3 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(12): view('AssetManagement\\index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-21 02:25:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 02:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 02:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 02:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 02:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 02:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-21 02:30:18 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "merk-perangkat/index.php"
+[Method: GET, Route: merk-perangkat]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('merk-perangkat/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('merk-perangkat/index', [], true)
+ 3 APPPATH\Modules\MasterData\Controllers\MerkPerangkatController.php(14): view('merk-perangkat/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Modules\MasterData\Controllers\MerkPerangkatController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MasterData\Controllers\MerkPerangkatController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-21 02:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 02:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-21 02:39:11 --> ErrorException: Undefined global variable $_SESSION
+[Method: GET, Route: jenis-perangkat]
+in APPPATH\Modules\MasterData\Views\jenis-perangkat\index.php on line 2.
+ 1 APPPATH\Modules\MasterData\Views\jenis-perangkat\index.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $_SESSION', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\jenis-perangkat\\index.php', 2)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\jenis-perangkat\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('\\App\\Modules\\MasterData\\Views\\jenis-perangkat\\index', [], true)
+ 5 APPPATH\Modules\MasterData\Controllers\JenisPerangkatController.php(14): view('\\App\\Modules\\MasterData\\Views\\jenis-perangkat\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Modules\MasterData\Controllers\JenisPerangkatController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MasterData\Controllers\JenisPerangkatController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-21 02:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-21 02:40:05 --> ErrorException: Attempt to read property "role" on null
+[Method: GET, Route: jenis-perangkat]
+in APPPATH\Modules\MasterData\Views\jenis-perangkat\index.php on line 3.
+ 1 APPPATH\Modules\MasterData\Views\jenis-perangkat\index.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "role" on null', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\jenis-perangkat\\index.php', 3)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\jenis-perangkat\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('\\App\\Modules\\MasterData\\Views\\jenis-perangkat\\index', [], true)
+ 5 APPPATH\Modules\MasterData\Controllers\JenisPerangkatController.php(14): view('\\App\\Modules\\MasterData\\Views\\jenis-perangkat\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Modules\MasterData\Controllers\JenisPerangkatController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MasterData\Controllers\JenisPerangkatController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-21 02:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-21 02:40:37 --> ErrorException: Attempt to read property "role" on null
+[Method: GET, Route: jenis-perangkat]
+in APPPATH\Modules\MasterData\Views\jenis-perangkat\index.php on line 3.
+ 1 APPPATH\Modules\MasterData\Views\jenis-perangkat\index.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "role" on null', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\jenis-perangkat\\index.php', 3)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\jenis-perangkat\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('\\App\\Modules\\MasterData\\Views\\jenis-perangkat\\index', [], true)
+ 5 APPPATH\Modules\MasterData\Controllers\JenisPerangkatController.php(14): view('\\App\\Modules\\MasterData\\Views\\jenis-perangkat\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Modules\MasterData\Controllers\JenisPerangkatController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MasterData\Controllers\JenisPerangkatController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+CRITICAL - 2024-10-21 02:40:52 --> ErrorException: Undefined variable $display
+[Method: GET, Route: jenis-perangkat]
+in APPPATH\Modules\MasterData\Views\jenis-perangkat\index.php on line 33.
+ 1 APPPATH\Modules\MasterData\Views\jenis-perangkat\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $display', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\jenis-perangkat\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\jenis-perangkat\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('\\App\\Modules\\MasterData\\Views\\jenis-perangkat\\index', [], true)
+ 5 APPPATH\Modules\MasterData\Controllers\JenisPerangkatController.php(14): view('\\App\\Modules\\MasterData\\Views\\jenis-perangkat\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Modules\MasterData\Controllers\JenisPerangkatController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MasterData\Controllers\JenisPerangkatController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-21 02:59:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-21 02:59:07 --> ErrorException: Attempt to read property "nama_jenis_perangkat" on array
+[Method: GET, Route: jenis-perangkat]
+in APPPATH\Modules\MasterData\Views\jenis-perangkat\index.php on line 51.
+ 1 APPPATH\Modules\MasterData\Views\jenis-perangkat\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_jenis_perangkat" on array', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\jenis-perangkat\\index.php', 51)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\jenis-perangkat\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('\\App\\Modules\\MasterData\\Views\\jenis-perangkat\\index', [], true)
+ 5 APPPATH\Modules\MasterData\Controllers\JenisPerangkatController.php(14): view('\\App\\Modules\\MasterData\\Views\\jenis-perangkat\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Modules\MasterData\Controllers\JenisPerangkatController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MasterData\Controllers\JenisPerangkatController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-21 03:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 03:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-21 03:14:03 --> InvalidArgumentException: "rds" is not a valid database connection group.
+[Method: GET, Route: radius]
+in SYSTEMPATH\Database\Config.php on line 72.
+ 1 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('rds')
+ 2 APPPATH\Modules\Radius\Controllers\MacAddressController.php(34): CodeIgniter\Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-21 03:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 03:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 03:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 03:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-21 03:15:46 --> Error connecting to the database: mysqli_sql_exception: Host '10.20.20.144' is not allowed to connect to this MySQL server in C:\xampp\htdocs\sirasti_app-dev\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp\htdocs\sirasti_app-dev\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('10.20.30.112', 'radius', Object(SensitiveParameterValue), 'radiusdb', 3306, '', 0)
+#1 C:\xampp\htdocs\sirasti_app-dev\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\sirasti_app-dev\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\sirasti_app-dev\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\sirasti_app-dev\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sirasti_app-dev\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\sirasti_app-dev\app\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\sirasti_app-dev\app\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+#8 C:\xampp\htdocs\sirasti_app-dev\system\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+#9 C:\xampp\htdocs\sirasti_app-dev\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+#10 C:\xampp\htdocs\sirasti_app-dev\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sirasti_app-dev\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\sirasti_app-dev\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\sirasti_app-dev\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\sirasti_app-dev\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host '10.20.20.144' is not allowed to connect to this MySQL server in C:\xampp\htdocs\sirasti_app-dev\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\sirasti_app-dev\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\sirasti_app-dev\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\sirasti_app-dev\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\sirasti_app-dev\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\sirasti_app-dev\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\sirasti_app-dev\app\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\sirasti_app-dev\app\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+#7 C:\xampp\htdocs\sirasti_app-dev\system\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+#8 C:\xampp\htdocs\sirasti_app-dev\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+#9 C:\xampp\htdocs\sirasti_app-dev\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sirasti_app-dev\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sirasti_app-dev\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\sirasti_app-dev\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\sirasti_app-dev\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-10-21 03:15:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host '10.20.20.144' is not allowed to connect to this MySQL server
+[Method: GET, Route: radius]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `userinfo`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-21 03:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 03:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 03:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 03:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 03:32:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:03:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-21 04:05:00 --> ErrorException: Undefined variable $hitung_asset
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard\index.php on line 24.
+ 1 APPPATH\Views\dashboard\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hitung_asset', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Views\\dashboard\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Modules\Dashboard\Controllers\DashboardController.php(10): view('dashboard/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Modules\Dashboard\Controllers\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Dashboard\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-21 04:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-21 04:05:25 --> ParseError: Unterminated comment starting line 24
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard\index.php on line 24.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 3 APPPATH\Modules\Dashboard\Controllers\DashboardController.php(10): view('dashboard/index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Modules\Dashboard\Controllers\DashboardController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Dashboard\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-21 04:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:10:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:10:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:15:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-21 04:18:56 --> ErrorException: Undefined variable $k
+[Method: GET, Route: jenis-perangkat]
+in APPPATH\Modules\MasterData\Views\jenis-perangkat\index.php on line 81.
+ 1 APPPATH\Modules\MasterData\Views\jenis-perangkat\index.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $k', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\jenis-perangkat\\index.php', 81)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\jenis-perangkat\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('\\App\\Modules\\MasterData\\Views\\jenis-perangkat\\index', [], true)
+ 5 APPPATH\Modules\MasterData\Controllers\JenisPerangkatController.php(14): view('\\App\\Modules\\MasterData\\Views\\jenis-perangkat\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Modules\MasterData\Controllers\JenisPerangkatController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MasterData\Controllers\JenisPerangkatController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-21 04:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:22:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 04:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 06:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 06:04:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 06:09:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 06:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 06:10:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 06:10:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 06:11:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 06:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 06:42:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-21 06:46:55 --> ErrorException: Undefined global variable $_SESSION
+[Method: GET, Route: merk-perangkat]
+in APPPATH\Modules\MasterData\Views\merk-perangkat\index.php on line 3.
+ 1 APPPATH\Modules\MasterData\Views\merk-perangkat\index.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $_SESSION', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\merk-perangkat\\index.php', 3)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\merk-perangkat\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('\\App\\Modules\\MasterData\\Views\\merk-perangkat\\index', [], true)
+ 5 APPPATH\Modules\MasterData\Controllers\MerkPerangkatController.php(21): view('\\App\\Modules\\MasterData\\Views\\merk-perangkat\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Modules\MasterData\Controllers\MerkPerangkatController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MasterData\Controllers\MerkPerangkatController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-21 06:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-21 06:47:55 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: merk-perangkat]
+in APPPATH\Modules\MasterData\Views\merk-perangkat\index.php on line 4.
+ 1 APPPATH\Modules\MasterData\Views\merk-perangkat\index.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\merk-perangkat\\index.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\merk-perangkat\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('\\App\\Modules\\MasterData\\Views\\merk-perangkat\\index', [], true)
+ 5 APPPATH\Modules\MasterData\Controllers\MerkPerangkatController.php(21): view('\\App\\Modules\\MasterData\\Views\\merk-perangkat\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Modules\MasterData\Controllers\MerkPerangkatController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MasterData\Controllers\MerkPerangkatController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-21 06:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-21 06:47:58 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: merk-perangkat]
+in APPPATH\Modules\MasterData\Views\merk-perangkat\index.php on line 4.
+ 1 APPPATH\Modules\MasterData\Views\merk-perangkat\index.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\merk-perangkat\\index.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\merk-perangkat\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('\\App\\Modules\\MasterData\\Views\\merk-perangkat\\index', [], true)
+ 5 APPPATH\Modules\MasterData\Controllers\MerkPerangkatController.php(21): view('\\App\\Modules\\MasterData\\Views\\merk-perangkat\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Modules\MasterData\Controllers\MerkPerangkatController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MasterData\Controllers\MerkPerangkatController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-21 06:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-21 06:48:43 --> ErrorException: Undefined variable $addClass
+[Method: GET, Route: merk-perangkat]
+in APPPATH\Modules\MasterData\Views\merk-perangkat\index.php on line 59.
+ 1 APPPATH\Modules\MasterData\Views\merk-perangkat\index.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $addClass', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\merk-perangkat\\index.php', 59)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\merk-perangkat\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('\\App\\Modules\\MasterData\\Views\\merk-perangkat\\index', [], true)
+ 5 APPPATH\Modules\MasterData\Controllers\MerkPerangkatController.php(21): view('\\App\\Modules\\MasterData\\Views\\merk-perangkat\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Modules\MasterData\Controllers\MerkPerangkatController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MasterData\Controllers\MerkPerangkatController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-21 06:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-21 06:50:14 --> ErrorException: Undefined variable $roleUser
+[Method: GET, Route: merk-perangkat]
+in APPPATH\Modules\MasterData\Views\merk-perangkat\index.php on line 59.
+ 1 APPPATH\Modules\MasterData\Views\merk-perangkat\index.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roleUser', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\merk-perangkat\\index.php', 59)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\merk-perangkat\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('\\App\\Modules\\MasterData\\Views\\merk-perangkat\\index', [], true)
+ 5 APPPATH\Modules\MasterData\Controllers\MerkPerangkatController.php(21): view('\\App\\Modules\\MasterData\\Views\\merk-perangkat\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Modules\MasterData\Controllers\MerkPerangkatController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MasterData\Controllers\MerkPerangkatController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-21 06:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 06:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-21 06:51:59 --> ErrorException: Undefined variable $display
+[Method: GET, Route: merk-perangkat]
+in APPPATH\Modules\MasterData\Views\merk-perangkat\index.php on line 38.
+ 1 APPPATH\Modules\MasterData\Views\merk-perangkat\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $display', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\merk-perangkat\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\merk-perangkat\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('\\App\\Modules\\MasterData\\Views\\merk-perangkat\\index', [], true)
+ 5 APPPATH\Modules\MasterData\Controllers\MerkPerangkatController.php(21): view('\\App\\Modules\\MasterData\\Views\\merk-perangkat\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Modules\MasterData\Controllers\MerkPerangkatController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MasterData\Controllers\MerkPerangkatController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+CRITICAL - 2024-10-21 06:52:57 --> ErrorException: Undefined global variable $_SESSION
+[Method: GET, Route: merk-perangkat]
+in APPPATH\Modules\MasterData\Views\merk-perangkat\index.php on line 2.
+ 1 APPPATH\Modules\MasterData\Views\merk-perangkat\index.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $_SESSION', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\merk-perangkat\\index.php', 2)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\merk-perangkat\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('\\App\\Modules\\MasterData\\Views\\merk-perangkat\\index', [], true)
+ 5 APPPATH\Modules\MasterData\Controllers\MerkPerangkatController.php(21): view('\\App\\Modules\\MasterData\\Views\\merk-perangkat\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Modules\MasterData\Controllers\MerkPerangkatController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MasterData\Controllers\MerkPerangkatController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-21 06:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-21 06:54:33 --> ErrorException: Attempt to read property "role" on null
+[Method: GET, Route: merk-perangkat]
+in APPPATH\Modules\MasterData\Views\merk-perangkat\index.php on line 3.
+ 1 APPPATH\Modules\MasterData\Views\merk-perangkat\index.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "role" on null', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\merk-perangkat\\index.php', 3)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\merk-perangkat\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('\\App\\Modules\\MasterData\\Views\\merk-perangkat\\index', [], true)
+ 5 APPPATH\Modules\MasterData\Controllers\MerkPerangkatController.php(21): view('\\App\\Modules\\MasterData\\Views\\merk-perangkat\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Modules\MasterData\Controllers\MerkPerangkatController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MasterData\Controllers\MerkPerangkatController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-21 06:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-21 06:55:17 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: merk-perangkat]
+in APPPATH\Modules\MasterData\Views\merk-perangkat\index.php on line 3.
+ 1 APPPATH\Modules\MasterData\Views\merk-perangkat\index.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\merk-perangkat\\index.php', 3)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\merk-perangkat\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('\\App\\Modules\\MasterData\\Views\\merk-perangkat\\index', [], true)
+ 5 APPPATH\Modules\MasterData\Controllers\MerkPerangkatController.php(21): view('\\App\\Modules\\MasterData\\Views\\merk-perangkat\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Modules\MasterData\Controllers\MerkPerangkatController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MasterData\Controllers\MerkPerangkatController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-21 06:56:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-21 06:56:39 --> Error: Value of type null is not callable
+[Method: GET, Route: merk-perangkat]
+in APPPATH\Modules\MasterData\Views\merk-perangkat\index.php on line 3.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('\\App\\Modules\\MasterData\\Views\\merk-perangkat\\index', [], true)
+ 4 APPPATH\Modules\MasterData\Controllers\MerkPerangkatController.php(21): view('\\App\\Modules\\MasterData\\Views\\merk-perangkat\\index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Modules\MasterData\Controllers\MerkPerangkatController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MasterData\Controllers\MerkPerangkatController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-21 07:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-21 07:17:24 --> Error: Value of type null is not callable
+[Method: GET, Route: merk-perangkat]
+in APPPATH\Modules\MasterData\Views\merk-perangkat\index.php on line 3.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('\\App\\Modules\\MasterData\\Views\\merk-perangkat\\index', [], true)
+ 4 APPPATH\Modules\MasterData\Controllers\MerkPerangkatController.php(21): view('\\App\\Modules\\MasterData\\Views\\merk-perangkat\\index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Modules\MasterData\Controllers\MerkPerangkatController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MasterData\Controllers\MerkPerangkatController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-21 07:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-21 07:20:12 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: merk-perangkat]
+in APPPATH\Modules\MasterData\Views\merk-perangkat\index.php on line 3.
+ 1 APPPATH\Modules\MasterData\Views\merk-perangkat\index.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\merk-perangkat\\index.php', 3)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\merk-perangkat\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('\\App\\Modules\\MasterData\\Views\\merk-perangkat\\index', [], true)
+ 5 APPPATH\Modules\MasterData\Controllers\MerkPerangkatController.php(21): view('\\App\\Modules\\MasterData\\Views\\merk-perangkat\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Modules\MasterData\Controllers\MerkPerangkatController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MasterData\Controllers\MerkPerangkatController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-21 07:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-21 07:21:24 --> ErrorException: Undefined variable $display
+[Method: GET, Route: merk-perangkat]
+in APPPATH\Modules\MasterData\Views\merk-perangkat\index.php on line 41.
+ 1 APPPATH\Modules\MasterData\Views\merk-perangkat\index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $display', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\merk-perangkat\\index.php', 41)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\merk-perangkat\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('\\App\\Modules\\MasterData\\Views\\merk-perangkat\\index', [], true)
+ 5 APPPATH\Modules\MasterData\Controllers\MerkPerangkatController.php(21): view('\\App\\Modules\\MasterData\\Views\\merk-perangkat\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Modules\MasterData\Controllers\MerkPerangkatController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MasterData\Controllers\MerkPerangkatController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-21 07:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-21 07:22:34 --> ErrorException: Undefined variable $addClass
+[Method: GET, Route: merk-perangkat]
+in APPPATH\Modules\MasterData\Views\merk-perangkat\index.php on line 58.
+ 1 APPPATH\Modules\MasterData\Views\merk-perangkat\index.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $addClass', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\merk-perangkat\\index.php', 58)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\merk-perangkat\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('\\App\\Modules\\MasterData\\Views\\merk-perangkat\\index', [], true)
+ 5 APPPATH\Modules\MasterData\Controllers\MerkPerangkatController.php(21): view('\\App\\Modules\\MasterData\\Views\\merk-perangkat\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Modules\MasterData\Controllers\MerkPerangkatController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MasterData\Controllers\MerkPerangkatController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-21 07:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-21 07:25:48 --> ErrorException: Attempt to read property "role" on null
+[Method: GET, Route: merk-perangkat]
+in APPPATH\Modules\MasterData\Views\merk-perangkat\index.php on line 3.
+ 1 APPPATH\Modules\MasterData\Views\merk-perangkat\index.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "role" on null', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\merk-perangkat\\index.php', 3)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\merk-perangkat\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('\\App\\Modules\\MasterData\\Views\\merk-perangkat\\index', [], true)
+ 5 APPPATH\Modules\MasterData\Controllers\MerkPerangkatController.php(21): view('\\App\\Modules\\MasterData\\Views\\merk-perangkat\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Modules\MasterData\Controllers\MerkPerangkatController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MasterData\Controllers\MerkPerangkatController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-21 07:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-21 07:28:53 --> ErrorException: Attempt to read property "role" on null
+[Method: GET, Route: merk-perangkat]
+in APPPATH\Modules\MasterData\Views\merk-perangkat\index.php on line 4.
+ 1 APPPATH\Modules\MasterData\Views\merk-perangkat\index.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "role" on null', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\merk-perangkat\\index.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\merk-perangkat\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('\\App\\Modules\\MasterData\\Views\\merk-perangkat\\index', [], true)
+ 5 APPPATH\Modules\MasterData\Controllers\MerkPerangkatController.php(21): view('\\App\\Modules\\MasterData\\Views\\merk-perangkat\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Modules\MasterData\Controllers\MerkPerangkatController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MasterData\Controllers\MerkPerangkatController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-21 07:29:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-21 07:29:21 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: merk-perangkat]
+in APPPATH\Modules\MasterData\Views\merk-perangkat\index.php on line 4.
+ 1 APPPATH\Modules\MasterData\Views\merk-perangkat\index.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\merk-perangkat\\index.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\merk-perangkat\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('\\App\\Modules\\MasterData\\Views\\merk-perangkat\\index', [], true)
+ 5 APPPATH\Modules\MasterData\Controllers\MerkPerangkatController.php(21): view('\\App\\Modules\\MasterData\\Views\\merk-perangkat\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Modules\MasterData\Controllers\MerkPerangkatController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MasterData\Controllers\MerkPerangkatController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-21 07:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 07:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 07:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 07:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-21 07:31:52 --> ErrorException: Undefined variable $display
+[Method: GET, Route: merk-perangkat]
+in APPPATH\Modules\MasterData\Views\merk-perangkat\index.php on line 40.
+ 1 APPPATH\Modules\MasterData\Views\merk-perangkat\index.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $display', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\merk-perangkat\\index.php', 40)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\merk-perangkat\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('\\App\\Modules\\MasterData\\Views\\merk-perangkat\\index', [], true)
+ 5 APPPATH\Modules\MasterData\Controllers\MerkPerangkatController.php(21): view('\\App\\Modules\\MasterData\\Views\\merk-perangkat\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Modules\MasterData\Controllers\MerkPerangkatController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MasterData\Controllers\MerkPerangkatController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-21 07:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-21 07:32:21 --> ErrorException: Undefined variable $display
+[Method: GET, Route: merk-perangkat]
+in APPPATH\Modules\MasterData\Views\merk-perangkat\index.php on line 40.
+ 1 APPPATH\Modules\MasterData\Views\merk-perangkat\index.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $display', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\merk-perangkat\\index.php', 40)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\MasterData\\Views\\merk-perangkat\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('\\App\\Modules\\MasterData\\Views\\merk-perangkat\\index', [], true)
+ 5 APPPATH\Modules\MasterData\Controllers\MerkPerangkatController.php(21): view('\\App\\Modules\\MasterData\\Views\\merk-perangkat\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Modules\MasterData\Controllers\MerkPerangkatController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MasterData\Controllers\MerkPerangkatController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-21 07:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 07:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 07:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 07:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-21 07:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

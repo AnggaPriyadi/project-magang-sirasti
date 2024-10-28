@@ -1,0 +1,790 @@
+INFO - 2024-10-25 02:12:11 --> REDIRECTED ROUTE at http://localhost:8080/dashboard
+INFO - 2024-10-25 02:12:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 02:12:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 02:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 02:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 02:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-25 02:12:40 --> ErrorException: Undefined property: stdClass::$nama_jenis_perangkat
+[Method: GET, Route: asset-management/displayDataExport]
+in APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php on line 120.
+ 1 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_jenis_perangkat', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\AssetManagement\\Controllers\\AssetManagementController.php', 120)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->displayDataExport()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-25 02:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-25 02:12:47 --> ErrorException: Undefined property: stdClass::$id_jenis
+[Method: GET, Route: asset-management/displayData]
+in APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php on line 84.
+ 1 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_jenis', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\AssetManagement\\Controllers\\AssetManagementController.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->displayData()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+CRITICAL - 2024-10-25 02:14:23 --> ErrorException: Undefined property: stdClass::$nama_jenis_perangkat
+[Method: GET, Route: asset-management/displayDataExport]
+in APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php on line 120.
+ 1 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_jenis_perangkat', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\AssetManagement\\Controllers\\AssetManagementController.php', 120)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->displayDataExport()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-25 02:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-25 02:24:48 --> ErrorException: Undefined property: stdClass::$nama_jenis_perangkat
+[Method: GET, Route: asset-management/displayDataExport]
+in APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php on line 120.
+ 1 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_jenis_perangkat', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\AssetManagement\\Controllers\\AssetManagementController.php', 120)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->displayDataExport()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-25 02:24:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-25 02:24:49 --> ErrorException: Undefined property: stdClass::$nama_jenis_perangkat
+[Method: GET, Route: asset-management/displayData]
+in APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php on line 73.
+ 1 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_jenis_perangkat', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\AssetManagement\\Controllers\\AssetManagementController.php', 73)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->displayData()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+CRITICAL - 2024-10-25 02:31:33 --> ErrorException: Undefined variable $session
+[Method: GET, Route: asset-management]
+in APPPATH\Modules\AssetManagement\Views\index.php on line 7.
+ 1 APPPATH\Modules\AssetManagement\Views\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\AssetManagement\\Views\\index.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\AssetManagement\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('\\App\\Modules\\AssetManagement\\Views\\index', [], true)
+ 5 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(45): view('\\App\\Modules\\AssetManagement\\Views\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-25 02:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-25 02:31:54 --> ErrorException: Undefined property: stdClass::$nama_jenis_perangkat
+[Method: GET, Route: asset-management/displayDataExport]
+in APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php on line 123.
+ 1 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_jenis_perangkat', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\AssetManagement\\Controllers\\AssetManagementController.php', 123)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->displayDataExport()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-25 02:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-25 02:31:56 --> ErrorException: Undefined property: stdClass::$nama_jenis_perangkat
+[Method: GET, Route: asset-management/displayData]
+in APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php on line 76.
+ 1 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_jenis_perangkat', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\AssetManagement\\Controllers\\AssetManagementController.php', 76)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->displayData()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-25 02:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 02:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 02:32:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 02:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 02:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-25 02:32:34 --> ErrorException: Undefined property: stdClass::$nama_jenis_perangkat
+[Method: GET, Route: asset-management/displayDataExport]
+in APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php on line 123.
+ 1 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_jenis_perangkat', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\AssetManagement\\Controllers\\AssetManagementController.php', 123)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->displayDataExport()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-25 02:32:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-25 02:32:34 --> ErrorException: Undefined property: stdClass::$nama_jenis_perangkat
+[Method: GET, Route: asset-management/displayData]
+in APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php on line 76.
+ 1 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_jenis_perangkat', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\AssetManagement\\Controllers\\AssetManagementController.php', 76)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->displayData()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-25 02:40:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-25 02:40:35 --> ErrorException: Undefined property: stdClass::$nama_jenis_perangkat
+[Method: GET, Route: asset-management/displayDataExport]
+in APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php on line 123.
+ 1 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_jenis_perangkat', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\AssetManagement\\Controllers\\AssetManagementController.php', 123)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->displayDataExport()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-25 02:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-25 02:40:37 --> ErrorException: Undefined property: stdClass::$nama_jenis_perangkat
+[Method: GET, Route: asset-management/displayData]
+in APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php on line 76.
+ 1 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_jenis_perangkat', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\AssetManagement\\Controllers\\AssetManagementController.php', 76)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->displayData()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-25 02:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-25 02:40:59 --> ErrorException: Undefined property: stdClass::$nama_jenis_perangkat
+[Method: GET, Route: asset-management/displayDataExport]
+in APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php on line 123.
+ 1 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_jenis_perangkat', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\AssetManagement\\Controllers\\AssetManagementController.php', 123)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->displayDataExport()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-25 02:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-25 02:41:02 --> ErrorException: Undefined property: stdClass::$nama_jenis_perangkat
+[Method: GET, Route: asset-management/displayData]
+in APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php on line 76.
+ 1 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_jenis_perangkat', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\AssetManagement\\Controllers\\AssetManagementController.php', 76)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->displayData()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-25 02:43:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-25 02:43:20 --> ErrorException: Undefined property: stdClass::$nama_jenis_perangkat
+[Method: GET, Route: asset-management/displayDataExport]
+in APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php on line 123.
+ 1 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_jenis_perangkat', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\AssetManagement\\Controllers\\AssetManagementController.php', 123)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->displayDataExport()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-25 02:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-25 02:43:23 --> ErrorException: Undefined property: stdClass::$nama_jenis_perangkat
+[Method: GET, Route: asset-management/displayData]
+in APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php on line 76.
+ 1 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_jenis_perangkat', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\AssetManagement\\Controllers\\AssetManagementController.php', 76)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->displayData()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-25 02:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-25 02:47:19 --> ErrorException: Undefined property: stdClass::$nama_jenis_perangkat
+[Method: GET, Route: asset-management/displayDataExport]
+in APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php on line 123.
+ 1 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_jenis_perangkat', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\AssetManagement\\Controllers\\AssetManagementController.php', 123)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->displayDataExport()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-25 02:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-25 02:47:22 --> ErrorException: Undefined property: stdClass::$nama_jenis_perangkat
+[Method: GET, Route: asset-management/displayData]
+in APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php on line 76.
+ 1 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_jenis_perangkat', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\AssetManagement\\Controllers\\AssetManagementController.php', 76)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->displayData()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+CRITICAL - 2024-10-25 02:48:58 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, string given, called in C:\xampp\htdocs\sirasti_app-dev\system\Model.php on line 930
+[Method: GET, Route: asset-management]
+in SYSTEMPATH\Database\BaseBuilder.php on line 398.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->select('asset_management.*', 'jenis_perangkat.nama_jenis_perangkat', 'merk_perangkat.nama_merk', 'lokasi_pemasangan.nama_lokasi', 'status_asset.status as nama_status')
+ 2 APPPATH\Modules\AssetManagement\Models\AssetManagementModel.php(21): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(35): App\Modules\AssetManagement\Models\AssetManagementModel->getAll()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+ERROR - 2024-10-25 02:51:19 --> mysqli_sql_exception: Unknown column 'status_asset.status' in 'field list' in C:\xampp\htdocs\sirasti_app-dev\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\sirasti_app-dev\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `asset_m...', 0)
+#1 C:\xampp\htdocs\sirasti_app-dev\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `asset_m...')
+#2 C:\xampp\htdocs\sirasti_app-dev\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `asset_m...')
+#3 C:\xampp\htdocs\sirasti_app-dev\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `asset_m...', Array, false)
+#4 C:\xampp\htdocs\sirasti_app-dev\system\Model.php(930): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sirasti_app-dev\app\Modules\AssetManagement\Models\AssetManagementModel.php(27): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\sirasti_app-dev\app\Modules\AssetManagement\Controllers\AssetManagementController.php(35): App\Modules\AssetManagement\Models\AssetManagementModel->getAll()
+#7 C:\xampp\htdocs\sirasti_app-dev\system\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->index()
+#8 C:\xampp\htdocs\sirasti_app-dev\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+#9 C:\xampp\htdocs\sirasti_app-dev\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sirasti_app-dev\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sirasti_app-dev\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\sirasti_app-dev\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\sirasti_app-dev\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-10-25 02:51:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status_asset.status' in 'field list'
+[Method: GET, Route: asset-management]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `asset_management`.*, `jenis_perangkat`.`nama_jenis_perangkat`, `merk_perangkat`.`nama_merk`, `lokasi_pemasangan`.`nama_lokasi`, `status_asset`.`status` as `nama_status`
+FROM `asset_management`
+LEFT JOIN `jenis_perangkat` ON `jenis_perangkat`.`id_jenis` = `asset_management`.`jenis_perangkat`
+LEFT JOIN `merk_perangkat` ON `merk_perangkat`.`id_merk` = `asset_management`.`merk`
+LEFT JOIN `lokasi_pemasangan` ON `lokasi_pemasangan`.`id_lokasi` = `asset_management`.`lokasi_perangkat`
+LEFT JOIN `status_asset` ON `status_asset`.`id_status` = `asset_management`.`status`
+ORDER BY `id_asset` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Modules\AssetManagement\Models\AssetManagementModel.php(27): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(35): App\Modules\AssetManagement\Models\AssetManagementModel->getAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+CRITICAL - 2024-10-25 02:51:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status_asset.status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `asset_management`.*, `jenis_perangkat`.`nama_jenis_perangkat`, `merk_perangkat`.`nama_merk`, `lokasi_pemasangan`.`nama_lokasi`, `status_asset`.`status` as `nama_status`
+FROM `asset_management`
+LEFT JOIN `jenis_perangkat` ON `jenis_perangkat`.`id_jenis` = `asset_management`.`jenis_perangkat`
+LEFT JOIN `merk_perangkat` ON `merk_perangkat`.`id_merk` = `asset_management`.`merk`
+LEFT JOIN `lokasi_pemasangan` ON `lokasi_pemasangan`.`id_lokasi` = `asset_management`.`lokasi_perangkat`
+LEFT JOIN `status_asset` ON `status_asset`.`id_status` = `asset_management`.`status`
+ORDER BY `id_asset` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `asset_management`.*, `jenis_perangkat`.`nama_jenis_perangkat`, `merk_perangkat`.`nama_merk`, `lokasi_pemasangan`.`nama_lokasi`, `status_asset`.`status` as `nama_status`
+FROM `asset_management`
+LEFT JOIN `jenis_perangkat` ON `jenis_perangkat`.`id_jenis` = `asset_management`.`jenis_perangkat`
+LEFT JOIN `merk_perangkat` ON `merk_perangkat`.`id_merk` = `asset_management`.`merk`
+LEFT JOIN `lokasi_pemasangan` ON `lokasi_pemasangan`.`id_lokasi` = `asset_management`.`lokasi_perangkat`
+LEFT JOIN `status_asset` ON `status_asset`.`id_status` = `asset_management`.`status`
+ORDER BY `id_asset` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `asset_management`.*, `jenis_perangkat`.`nama_jenis_perangkat`, `merk_perangkat`.`nama_merk`, `lokasi_pemasangan`.`nama_lokasi`, `status_asset`.`status` as `nama_status`
+FROM `asset_management`
+LEFT JOIN `jenis_perangkat` ON `jenis_perangkat`.`id_jenis` = `asset_management`.`jenis_perangkat`
+LEFT JOIN `merk_perangkat` ON `merk_perangkat`.`id_merk` = `asset_management`.`merk`
+LEFT JOIN `lokasi_pemasangan` ON `lokasi_pemasangan`.`id_lokasi` = `asset_management`.`lokasi_perangkat`
+LEFT JOIN `status_asset` ON `status_asset`.`id_status` = `asset_management`.`status`
+ORDER BY `id_asset` DESC', [], false)
+ 4 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Modules\AssetManagement\Models\AssetManagementModel.php(27): CodeIgniter\Model->__call('get', [])
+ 6 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(35): App\Modules\AssetManagement\Models\AssetManagementModel->getAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+CRITICAL - 2024-10-25 02:51:19 --> [Caused by] mysqli_sql_exception: Unknown column 'status_asset.status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `asset_management`.*, `jenis_perangkat`.`nama_jenis_perangkat`, `merk_perangkat`.`nama_merk`, `lokasi_pemasangan`.`nama_lokasi`, `status_asset`.`status` as `nama_status`
+FROM `asset_management`
+LEFT JOIN `jenis_perangkat` ON `jenis_perangkat`.`id_jenis` = `asset_management`.`jenis_perangkat`
+LEFT JOIN `merk_perangkat` ON `merk_perangkat`.`id_merk` = `asset_management`.`merk`
+LEFT JOIN `lokasi_pemasangan` ON `lokasi_pemasangan`.`id_lokasi` = `asset_management`.`lokasi_perangkat`
+LEFT JOIN `status_asset` ON `status_asset`.`id_status` = `asset_management`.`status`
+ORDER BY `id_asset` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `asset_management`.*, `jenis_perangkat`.`nama_jenis_perangkat`, `merk_perangkat`.`nama_merk`, `lokasi_pemasangan`.`nama_lokasi`, `status_asset`.`status` as `nama_status`
+FROM `asset_management`
+LEFT JOIN `jenis_perangkat` ON `jenis_perangkat`.`id_jenis` = `asset_management`.`jenis_perangkat`
+LEFT JOIN `merk_perangkat` ON `merk_perangkat`.`id_merk` = `asset_management`.`merk`
+LEFT JOIN `lokasi_pemasangan` ON `lokasi_pemasangan`.`id_lokasi` = `asset_management`.`lokasi_perangkat`
+LEFT JOIN `status_asset` ON `status_asset`.`id_status` = `asset_management`.`status`
+ORDER BY `id_asset` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `asset_management`.*, `jenis_perangkat`.`nama_jenis_perangkat`, `merk_perangkat`.`nama_merk`, `lokasi_pemasangan`.`nama_lokasi`, `status_asset`.`status` as `nama_status`
+FROM `asset_management`
+LEFT JOIN `jenis_perangkat` ON `jenis_perangkat`.`id_jenis` = `asset_management`.`jenis_perangkat`
+LEFT JOIN `merk_perangkat` ON `merk_perangkat`.`id_merk` = `asset_management`.`merk`
+LEFT JOIN `lokasi_pemasangan` ON `lokasi_pemasangan`.`id_lokasi` = `asset_management`.`lokasi_perangkat`
+LEFT JOIN `status_asset` ON `status_asset`.`id_status` = `asset_management`.`status`
+ORDER BY `id_asset` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `asset_management`.*, `jenis_perangkat`.`nama_jenis_perangkat`, `merk_perangkat`.`nama_merk`, `lokasi_pemasangan`.`nama_lokasi`, `status_asset`.`status` as `nama_status`
+FROM `asset_management`
+LEFT JOIN `jenis_perangkat` ON `jenis_perangkat`.`id_jenis` = `asset_management`.`jenis_perangkat`
+LEFT JOIN `merk_perangkat` ON `merk_perangkat`.`id_merk` = `asset_management`.`merk`
+LEFT JOIN `lokasi_pemasangan` ON `lokasi_pemasangan`.`id_lokasi` = `asset_management`.`lokasi_perangkat`
+LEFT JOIN `status_asset` ON `status_asset`.`id_status` = `asset_management`.`status`
+ORDER BY `id_asset` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\AssetManagement\Models\AssetManagementModel.php(27): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(35): App\Modules\AssetManagement\Models\AssetManagementModel->getAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+ERROR - 2024-10-25 02:52:02 --> mysqli_sql_exception: Unknown column 'status_asset.status' in 'field list' in C:\xampp\htdocs\sirasti_app-dev\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\sirasti_app-dev\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `asset_m...', 0)
+#1 C:\xampp\htdocs\sirasti_app-dev\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `asset_m...')
+#2 C:\xampp\htdocs\sirasti_app-dev\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `asset_m...')
+#3 C:\xampp\htdocs\sirasti_app-dev\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `asset_m...', Array, false)
+#4 C:\xampp\htdocs\sirasti_app-dev\system\Model.php(930): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sirasti_app-dev\app\Modules\AssetManagement\Models\AssetManagementModel.php(27): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\sirasti_app-dev\app\Modules\AssetManagement\Controllers\AssetManagementController.php(35): App\Modules\AssetManagement\Models\AssetManagementModel->getAll()
+#7 C:\xampp\htdocs\sirasti_app-dev\system\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->index()
+#8 C:\xampp\htdocs\sirasti_app-dev\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+#9 C:\xampp\htdocs\sirasti_app-dev\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sirasti_app-dev\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sirasti_app-dev\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\sirasti_app-dev\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\sirasti_app-dev\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-10-25 02:52:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status_asset.status' in 'field list'
+[Method: GET, Route: asset-management]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `asset_management`.*, `jenis_perangkat`.`nama_jenis_perangkat`, `merk_perangkat`.`nama_merk`, `lokasi_pemasangan`.`nama_lokasi`, `status_asset`.`status`
+FROM `asset_management`
+LEFT JOIN `jenis_perangkat` ON `jenis_perangkat`.`id_jenis` = `asset_management`.`jenis_perangkat`
+LEFT JOIN `merk_perangkat` ON `merk_perangkat`.`id_merk` = `asset_management`.`merk`
+LEFT JOIN `lokasi_pemasangan` ON `lokasi_pemasangan`.`id_lokasi` = `asset_management`.`lokasi_perangkat`
+LEFT JOIN `status_asset` ON `status_asset`.`id_status` = `asset_management`.`status`
+ORDER BY `id_asset` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Modules\AssetManagement\Models\AssetManagementModel.php(27): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(35): App\Modules\AssetManagement\Models\AssetManagementModel->getAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+CRITICAL - 2024-10-25 02:52:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status_asset.status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `asset_management`.*, `jenis_perangkat`.`nama_jenis_perangkat`, `merk_perangkat`.`nama_merk`, `lokasi_pemasangan`.`nama_lokasi`, `status_asset`.`status`
+FROM `asset_management`
+LEFT JOIN `jenis_perangkat` ON `jenis_perangkat`.`id_jenis` = `asset_management`.`jenis_perangkat`
+LEFT JOIN `merk_perangkat` ON `merk_perangkat`.`id_merk` = `asset_management`.`merk`
+LEFT JOIN `lokasi_pemasangan` ON `lokasi_pemasangan`.`id_lokasi` = `asset_management`.`lokasi_perangkat`
+LEFT JOIN `status_asset` ON `status_asset`.`id_status` = `asset_management`.`status`
+ORDER BY `id_asset` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `asset_management`.*, `jenis_perangkat`.`nama_jenis_perangkat`, `merk_perangkat`.`nama_merk`, `lokasi_pemasangan`.`nama_lokasi`, `status_asset`.`status`
+FROM `asset_management`
+LEFT JOIN `jenis_perangkat` ON `jenis_perangkat`.`id_jenis` = `asset_management`.`jenis_perangkat`
+LEFT JOIN `merk_perangkat` ON `merk_perangkat`.`id_merk` = `asset_management`.`merk`
+LEFT JOIN `lokasi_pemasangan` ON `lokasi_pemasangan`.`id_lokasi` = `asset_management`.`lokasi_perangkat`
+LEFT JOIN `status_asset` ON `status_asset`.`id_status` = `asset_management`.`status`
+ORDER BY `id_asset` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `asset_management`.*, `jenis_perangkat`.`nama_jenis_perangkat`, `merk_perangkat`.`nama_merk`, `lokasi_pemasangan`.`nama_lokasi`, `status_asset`.`status`
+FROM `asset_management`
+LEFT JOIN `jenis_perangkat` ON `jenis_perangkat`.`id_jenis` = `asset_management`.`jenis_perangkat`
+LEFT JOIN `merk_perangkat` ON `merk_perangkat`.`id_merk` = `asset_management`.`merk`
+LEFT JOIN `lokasi_pemasangan` ON `lokasi_pemasangan`.`id_lokasi` = `asset_management`.`lokasi_perangkat`
+LEFT JOIN `status_asset` ON `status_asset`.`id_status` = `asset_management`.`status`
+ORDER BY `id_asset` DESC', [], false)
+ 4 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Modules\AssetManagement\Models\AssetManagementModel.php(27): CodeIgniter\Model->__call('get', [])
+ 6 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(35): App\Modules\AssetManagement\Models\AssetManagementModel->getAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+CRITICAL - 2024-10-25 02:52:02 --> [Caused by] mysqli_sql_exception: Unknown column 'status_asset.status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `asset_management`.*, `jenis_perangkat`.`nama_jenis_perangkat`, `merk_perangkat`.`nama_merk`, `lokasi_pemasangan`.`nama_lokasi`, `status_asset`.`status`
+FROM `asset_management`
+LEFT JOIN `jenis_perangkat` ON `jenis_perangkat`.`id_jenis` = `asset_management`.`jenis_perangkat`
+LEFT JOIN `merk_perangkat` ON `merk_perangkat`.`id_merk` = `asset_management`.`merk`
+LEFT JOIN `lokasi_pemasangan` ON `lokasi_pemasangan`.`id_lokasi` = `asset_management`.`lokasi_perangkat`
+LEFT JOIN `status_asset` ON `status_asset`.`id_status` = `asset_management`.`status`
+ORDER BY `id_asset` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `asset_management`.*, `jenis_perangkat`.`nama_jenis_perangkat`, `merk_perangkat`.`nama_merk`, `lokasi_pemasangan`.`nama_lokasi`, `status_asset`.`status`
+FROM `asset_management`
+LEFT JOIN `jenis_perangkat` ON `jenis_perangkat`.`id_jenis` = `asset_management`.`jenis_perangkat`
+LEFT JOIN `merk_perangkat` ON `merk_perangkat`.`id_merk` = `asset_management`.`merk`
+LEFT JOIN `lokasi_pemasangan` ON `lokasi_pemasangan`.`id_lokasi` = `asset_management`.`lokasi_perangkat`
+LEFT JOIN `status_asset` ON `status_asset`.`id_status` = `asset_management`.`status`
+ORDER BY `id_asset` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `asset_management`.*, `jenis_perangkat`.`nama_jenis_perangkat`, `merk_perangkat`.`nama_merk`, `lokasi_pemasangan`.`nama_lokasi`, `status_asset`.`status`
+FROM `asset_management`
+LEFT JOIN `jenis_perangkat` ON `jenis_perangkat`.`id_jenis` = `asset_management`.`jenis_perangkat`
+LEFT JOIN `merk_perangkat` ON `merk_perangkat`.`id_merk` = `asset_management`.`merk`
+LEFT JOIN `lokasi_pemasangan` ON `lokasi_pemasangan`.`id_lokasi` = `asset_management`.`lokasi_perangkat`
+LEFT JOIN `status_asset` ON `status_asset`.`id_status` = `asset_management`.`status`
+ORDER BY `id_asset` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `asset_management`.*, `jenis_perangkat`.`nama_jenis_perangkat`, `merk_perangkat`.`nama_merk`, `lokasi_pemasangan`.`nama_lokasi`, `status_asset`.`status`
+FROM `asset_management`
+LEFT JOIN `jenis_perangkat` ON `jenis_perangkat`.`id_jenis` = `asset_management`.`jenis_perangkat`
+LEFT JOIN `merk_perangkat` ON `merk_perangkat`.`id_merk` = `asset_management`.`merk`
+LEFT JOIN `lokasi_pemasangan` ON `lokasi_pemasangan`.`id_lokasi` = `asset_management`.`lokasi_perangkat`
+LEFT JOIN `status_asset` ON `status_asset`.`id_status` = `asset_management`.`status`
+ORDER BY `id_asset` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\AssetManagement\Models\AssetManagementModel.php(27): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(35): App\Modules\AssetManagement\Models\AssetManagementModel->getAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-25 02:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-25 02:54:48 --> ErrorException: Undefined property: stdClass::$nama_jenis_perangkat
+[Method: GET, Route: asset-management/displayDataExport]
+in APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php on line 123.
+ 1 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_jenis_perangkat', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\AssetManagement\\Controllers\\AssetManagementController.php', 123)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->displayDataExport()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-25 02:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-25 02:54:53 --> ErrorException: Undefined property: stdClass::$id_jenis
+[Method: GET, Route: asset-management/displayData]
+in APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php on line 87.
+ 1 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_jenis', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\AssetManagement\\Controllers\\AssetManagementController.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->displayData()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-25 02:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 02:58:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-25 02:58:15 --> ErrorException: Undefined property: stdClass::$id_jenis
+[Method: GET, Route: asset-management/displayData]
+in APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php on line 87.
+ 1 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_jenis', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\AssetManagement\\Controllers\\AssetManagementController.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->displayData()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-25 03:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 03:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-25 03:09:13 --> ErrorException: Undefined property: stdClass::$id_jenis
+[Method: GET, Route: asset-management/displayData]
+in APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php on line 89.
+ 1 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_jenis', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\AssetManagement\\Controllers\\AssetManagementController.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->displayData()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-25 03:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 03:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-25 03:10:07 --> ErrorException: Undefined property: stdClass::$id_jenis
+[Method: GET, Route: asset-management/displayData]
+in APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php on line 89.
+ 1 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_jenis', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\AssetManagement\\Controllers\\AssetManagementController.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->displayData()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-25 03:10:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 03:10:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-25 03:10:30 --> ErrorException: Undefined property: stdClass::$id_jenis
+[Method: GET, Route: asset-management/displayData]
+in APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php on line 89.
+ 1 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_jenis', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\AssetManagement\\Controllers\\AssetManagementController.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->displayData()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-25 03:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 03:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-25 03:12:26 --> ErrorException: Undefined property: stdClass::$id_merk
+[Method: GET, Route: asset-management/displayData]
+in APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php on line 91.
+ 1 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_merk', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\AssetManagement\\Controllers\\AssetManagementController.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->displayData()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-25 03:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 03:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-25 03:13:24 --> ErrorException: Undefined property: stdClass::$merk_perangkat
+[Method: GET, Route: asset-management/displayData]
+in APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php on line 91.
+ 1 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$merk_perangkat', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\AssetManagement\\Controllers\\AssetManagementController.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->displayData()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-25 03:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 03:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-25 03:14:14 --> ErrorException: Undefined property: stdClass::$id_merk
+[Method: GET, Route: asset-management/displayData]
+in APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php on line 91.
+ 1 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_merk', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\AssetManagement\\Controllers\\AssetManagementController.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->displayData()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-25 03:14:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 03:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-25 03:14:59 --> ErrorException: Undefined property: stdClass::$lokasi_pemasangan
+[Method: GET, Route: asset-management/displayData]
+in APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php on line 96.
+ 1 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$lokasi_pemasangan', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\AssetManagement\\Controllers\\AssetManagementController.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->displayData()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-25 03:15:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 03:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-25 03:15:35 --> ErrorException: Undefined property: stdClass::$lokasi
+[Method: GET, Route: asset-management/displayData]
+in APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php on line 97.
+ 1 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$lokasi', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\AssetManagement\\Controllers\\AssetManagementController.php', 97)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->displayData()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-25 03:15:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 03:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 03:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 03:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 03:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 03:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 03:20:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 03:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 03:21:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 03:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 03:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 03:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 03:34:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 03:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 03:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 03:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 03:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 03:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 03:40:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 03:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 03:41:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 03:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 03:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 03:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 03:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 03:45:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 03:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 03:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 04:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 04:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 04:10:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 04:10:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-25 04:10:45 --> CodeIgniter\Router\Exceptions\RouterException: The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Modules\AssetManagement\Controllers\AssetManagementController:update/$1"
+[Method: POST, Route: asset-management/update/66]
+in SYSTEMPATH\Router\Router.php on line 492.
+ 1 SYSTEMPATH\Router\Router.php(492): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Modules\\AssetManagement\\Controllers\\AssetManagementController:update/$1')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->checkRoutes('asset-management/update/66')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('asset-management/update/66')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-25 04:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 04:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 04:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 04:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 04:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 04:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 04:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 04:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 04:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 04:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 04:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 04:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 04:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 04:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 06:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-25 06:40:13 --> ErrorException: Undefined variable $display
+[Method: GET, Route: asset-management]
+in APPPATH\Modules\AssetManagement\Views\index.php on line 71.
+ 1 APPPATH\Modules\AssetManagement\Views\index.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $display', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\AssetManagement\\Views\\index.php', 71)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\AssetManagement\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('\\App\\Modules\\AssetManagement\\Views\\index', [], true)
+ 5 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(47): view('\\App\\Modules\\AssetManagement\\Views\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-25 06:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-25 06:41:18 --> ErrorException: Undefined variable $display
+[Method: GET, Route: asset-management]
+in APPPATH\Modules\AssetManagement\Views\index.php on line 71.
+ 1 APPPATH\Modules\AssetManagement\Views\index.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $display', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\AssetManagement\\Views\\index.php', 71)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\AssetManagement\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('\\App\\Modules\\AssetManagement\\Views\\index', [], true)
+ 5 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(47): view('\\App\\Modules\\AssetManagement\\Views\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-25 06:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-25 06:41:55 --> ErrorException: Undefined variable $display
+[Method: GET, Route: asset-management]
+in APPPATH\Modules\AssetManagement\Views\index.php on line 71.
+ 1 APPPATH\Modules\AssetManagement\Views\index.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $display', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\AssetManagement\\Views\\index.php', 71)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\AssetManagement\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('\\App\\Modules\\AssetManagement\\Views\\index', [], true)
+ 5 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(47): view('\\App\\Modules\\AssetManagement\\Views\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-25 06:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 06:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 06:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-25 06:43:35 --> ErrorException: Undefined variable $addClass
+[Method: GET, Route: asset-management]
+in APPPATH\Modules\AssetManagement\Views\index.php on line 74.
+ 1 APPPATH\Modules\AssetManagement\Views\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $addClass', 'C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\AssetManagement\\Views\\index.php', 74)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sirasti_app-dev\\app\\Modules\\AssetManagement\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('\\App\\Modules\\AssetManagement\\Views\\index', [], true)
+ 5 APPPATH\Modules\AssetManagement\Controllers\AssetManagementController.php(47): view('\\App\\Modules\\AssetManagement\\Views\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Modules\AssetManagement\Controllers\AssetManagementController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\AssetManagement\Controllers\AssetManagementController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-25 06:43:54 --> REDIRECTED ROUTE at http://localhost:8080/dashboard
+INFO - 2024-10-25 06:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 06:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 06:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 06:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 06:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 06:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 06:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 06:44:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 06:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 06:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 06:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 06:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 06:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 06:45:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 06:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 06:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 06:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 06:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 06:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 06:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 06:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 06:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 06:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 06:54:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 07:26:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 07:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 07:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 07:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 07:33:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 07:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 07:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 07:34:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 07:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-25 07:34:44 --> InvalidArgumentException: "rds" is not a valid database connection group.
+[Method: GET, Route: radius]
+in SYSTEMPATH\Database\Config.php on line 72.
+ 1 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('rds')
+ 2 APPPATH\Modules\Radius\Controllers\MacAddressController.php(34): CodeIgniter\Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-25 07:34:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 07:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 07:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 07:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-25 07:35:18 --> InvalidArgumentException: "rds" is not a valid database connection group.
+[Method: GET, Route: radius]
+in SYSTEMPATH\Database\Config.php on line 72.
+ 1 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('rds')
+ 2 APPPATH\Modules\Radius\Controllers\MacAddressController.php(34): CodeIgniter\Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti_app-dev\\public\\index.php')
+INFO - 2024-10-25 07:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 07:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 07:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,808 @@
+INFO - 2024-09-24 02:10:50 --> REDIRECTED ROUTE at http://localhost:8080/dashboard
+INFO - 2024-09-24 02:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 02:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 02:10:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 02:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 02:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 02:11:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 02:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 02:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 02:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-24 02:12:32 --> ErrorException: Undefined array key "jenis_perangkat_id"
+[Method: GET, Route: radius/edit/15757]
+in APPPATH\Modules\Radius\Views\userinfo\edit.php on line 111.
+ 1 APPPATH\Modules\Radius\Views\userinfo\edit.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis_perangkat_id"', 'C:\\xampp\\htdocs\\sirasti\\app\\Modules\\Radius\\Views\\userinfo\\edit.php', 111)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sirasti\\app\\Modules\\Radius\\Views\\userinfo\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('App\\Modules\\Radius\\Views\\userinfo\\edit', [], true)
+ 5 APPPATH\Modules\Radius\Controllers\MacAddressController.php(129): view('App\\Modules\\Radius\\Views\\userinfo\\edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->edit('15757')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti\\public\\index.php')
+INFO - 2024-09-24 02:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 02:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 02:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 02:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 02:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 02:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-24 02:23:34 --> mysqli_sql_exception: Table 'db_infrasti.radcheck' doesn't exist in C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `ra...', 0)
+#1 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ra...')
+#2 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ra...')
+#3 C:\xampp\htdocs\sirasti\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ra...', Array, false)
+#4 C:\xampp\htdocs\sirasti\app\Modules\Radius\Models\UserInfoModel.php(87): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\sirasti\app\Modules\Radius\Controllers\MacAddressController.php(165): App\Modules\Radius\Models\UserinfoModel->deleteMAC('15757')
+#6 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->delete()
+#7 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+#8 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sirasti\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\sirasti\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\sirasti\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\sirasti\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2024-09-24 02:23:34 --> mysqli_sql_exception: Table 'db_infrasti.radreply' doesn't exist in C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `ra...', 0)
+#1 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ra...')
+#2 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ra...')
+#3 C:\xampp\htdocs\sirasti\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ra...', Array, false)
+#4 C:\xampp\htdocs\sirasti\app\Modules\Radius\Models\UserInfoModel.php(90): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\sirasti\app\Modules\Radius\Controllers\MacAddressController.php(165): App\Modules\Radius\Models\UserinfoModel->deleteMAC('15757')
+#6 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->delete()
+#7 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+#8 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sirasti\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\sirasti\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\sirasti\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\sirasti\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+INFO - 2024-09-24 02:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 02:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 02:24:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 04:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 04:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 04:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 04:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 04:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 04:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-24 04:25:41 --> Error connecting to the database: mysqli_sql_exception: Host '10.20.12.248' is not allowed to connect to this MySQL server in C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('10.20.30.112', 'radius', 'radius', 'radiusdb', 3306, '', 0)
+#1 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\sirasti\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\sirasti\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sirasti\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\sirasti\app\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\sirasti\app\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+#8 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+#9 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+#10 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sirasti\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\sirasti\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\sirasti\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\sirasti\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host '10.20.12.248' is not allowed to connect to this MySQL server in C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\sirasti\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\sirasti\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\sirasti\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\sirasti\app\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\sirasti\app\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+#7 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+#8 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+#9 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sirasti\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sirasti\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\sirasti\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\sirasti\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-09-24 04:25:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host '10.20.12.248' is not allowed to connect to this MySQL server
+[Method: GET, Route: radius/]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `userinfo`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti\\public\\index.php')
+INFO - 2024-09-24 04:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-24 04:26:00 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo for db failed: No such host is known.  in C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 187)
+#1 C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('db', 'radius', 'radius', 'radiusdb', 3306, '', 0)
+#2 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\sirasti\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 C:\xampp\htdocs\sirasti\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\sirasti\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\sirasti\app\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\sirasti\app\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+#9 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+#10 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+#11 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\sirasti\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\sirasti\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\sirasti\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\sirasti\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo for db failed: No such host is known.  in C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('db', 'radius', 'radius', 'radiusdb', 3306, '', 0)
+#1 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\sirasti\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\sirasti\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sirasti\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\sirasti\app\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\sirasti\app\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+#8 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+#9 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+#10 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sirasti\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\sirasti\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\sirasti\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\sirasti\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo for db failed: No such host is known.  in C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\sirasti\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\sirasti\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\sirasti\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\sirasti\app\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\sirasti\app\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+#7 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+#8 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+#9 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sirasti\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sirasti\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\sirasti\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\sirasti\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-09-24 04:26:00 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo for db failed: No such host is known. 
+[Method: GET, Route: radius/]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `userinfo`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti\\public\\index.php')
+INFO - 2024-09-24 04:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-24 04:26:14 --> Error connecting to the database: mysqli_sql_exception: Host '10.20.12.248' is not allowed to connect to this MySQL server in C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('10.20.30.170', 'radius', 'radius', 'radiusdb', 3306, '', 0)
+#1 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\sirasti\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\sirasti\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sirasti\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\sirasti\app\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\sirasti\app\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+#8 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+#9 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+#10 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sirasti\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\sirasti\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\sirasti\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\sirasti\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host '10.20.12.248' is not allowed to connect to this MySQL server in C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\sirasti\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\sirasti\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\sirasti\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\sirasti\app\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\sirasti\app\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+#7 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+#8 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+#9 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sirasti\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sirasti\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\sirasti\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\sirasti\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-09-24 04:26:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host '10.20.12.248' is not allowed to connect to this MySQL server
+[Method: GET, Route: radius/]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `userinfo`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti\\public\\index.php')
+INFO - 2024-09-24 04:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-24 04:28:05 --> Error connecting to the database: mysqli_sql_exception: Host '10.20.12.248' is not allowed to connect to this MySQL server in C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('10.20.30.170', 'radius', 'radius', 'radiusdb', 3306, '', 0)
+#1 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\sirasti\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\sirasti\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sirasti\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\sirasti\app\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\sirasti\app\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+#8 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+#9 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+#10 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sirasti\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\sirasti\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\sirasti\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\sirasti\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host '10.20.12.248' is not allowed to connect to this MySQL server in C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\sirasti\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\sirasti\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\sirasti\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\sirasti\app\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\sirasti\app\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+#7 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+#8 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+#9 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sirasti\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sirasti\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\sirasti\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\sirasti\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-09-24 04:28:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host '10.20.12.248' is not allowed to connect to this MySQL server
+[Method: GET, Route: radius/]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `userinfo`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti\\public\\index.php')
+INFO - 2024-09-24 04:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-24 04:28:12 --> Error connecting to the database: mysqli_sql_exception: Host '10.20.12.248' is not allowed to connect to this MySQL server in C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('10.20.30.170', 'radius', 'radius', 'radiusdb', 3306, '', 0)
+#1 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\sirasti\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\sirasti\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sirasti\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\sirasti\app\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\sirasti\app\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+#8 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+#9 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+#10 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sirasti\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\sirasti\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\sirasti\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\sirasti\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host '10.20.12.248' is not allowed to connect to this MySQL server in C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\sirasti\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\sirasti\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\sirasti\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\sirasti\app\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\sirasti\app\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+#7 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+#8 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+#9 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sirasti\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sirasti\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\sirasti\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\sirasti\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-09-24 04:28:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host '10.20.12.248' is not allowed to connect to this MySQL server
+[Method: GET, Route: radius/]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `userinfo`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti\\public\\index.php')
+INFO - 2024-09-24 04:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-24 04:28:13 --> Error connecting to the database: mysqli_sql_exception: Host '10.20.12.248' is not allowed to connect to this MySQL server in C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('10.20.30.170', 'radius', 'radius', 'radiusdb', 3306, '', 0)
+#1 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\sirasti\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\sirasti\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sirasti\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\sirasti\app\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\sirasti\app\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+#8 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+#9 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+#10 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sirasti\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\sirasti\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\sirasti\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\sirasti\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host '10.20.12.248' is not allowed to connect to this MySQL server in C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\sirasti\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\sirasti\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\sirasti\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\sirasti\app\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\sirasti\app\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+#7 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+#8 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+#9 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sirasti\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sirasti\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\sirasti\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\sirasti\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-09-24 04:28:13 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host '10.20.12.248' is not allowed to connect to this MySQL server
+[Method: GET, Route: radius/]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `userinfo`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti\\public\\index.php')
+INFO - 2024-09-24 04:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-24 04:28:14 --> Error connecting to the database: mysqli_sql_exception: Host '10.20.12.248' is not allowed to connect to this MySQL server in C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('10.20.30.170', 'radius', 'radius', 'radiusdb', 3306, '', 0)
+#1 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\sirasti\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\sirasti\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sirasti\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\sirasti\app\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\sirasti\app\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+#8 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+#9 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+#10 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sirasti\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\sirasti\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\sirasti\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\sirasti\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host '10.20.12.248' is not allowed to connect to this MySQL server in C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\sirasti\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\sirasti\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\sirasti\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\sirasti\app\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\sirasti\app\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+#7 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+#8 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+#9 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sirasti\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sirasti\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\sirasti\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\sirasti\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-09-24 04:28:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host '10.20.12.248' is not allowed to connect to this MySQL server
+[Method: GET, Route: radius/]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `userinfo`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti\\public\\index.php')
+INFO - 2024-09-24 04:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-24 04:28:14 --> Error connecting to the database: mysqli_sql_exception: Host '10.20.12.248' is not allowed to connect to this MySQL server in C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('10.20.30.170', 'radius', 'radius', 'radiusdb', 3306, '', 0)
+#1 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\sirasti\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\sirasti\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sirasti\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\sirasti\app\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\sirasti\app\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+#8 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+#9 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+#10 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sirasti\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\sirasti\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\sirasti\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\sirasti\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host '10.20.12.248' is not allowed to connect to this MySQL server in C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\sirasti\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\sirasti\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\sirasti\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\sirasti\app\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\sirasti\app\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+#7 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+#8 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+#9 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sirasti\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sirasti\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\sirasti\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\sirasti\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-09-24 04:28:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host '10.20.12.248' is not allowed to connect to this MySQL server
+[Method: GET, Route: radius/]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `userinfo`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti\\public\\index.php')
+INFO - 2024-09-24 04:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-24 04:28:14 --> Error connecting to the database: mysqli_sql_exception: Host '10.20.12.248' is not allowed to connect to this MySQL server in C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('10.20.30.170', 'radius', 'radius', 'radiusdb', 3306, '', 0)
+#1 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\sirasti\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\sirasti\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sirasti\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\sirasti\app\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\sirasti\app\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+#8 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+#9 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+#10 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sirasti\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\sirasti\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\sirasti\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\sirasti\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host '10.20.12.248' is not allowed to connect to this MySQL server in C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\sirasti\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\sirasti\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\sirasti\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\sirasti\app\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\sirasti\app\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+#7 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+#8 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+#9 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sirasti\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sirasti\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\sirasti\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\sirasti\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-09-24 04:28:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host '10.20.12.248' is not allowed to connect to this MySQL server
+[Method: GET, Route: radius/]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `userinfo`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti\\public\\index.php')
+INFO - 2024-09-24 04:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-24 04:28:14 --> Error connecting to the database: mysqli_sql_exception: Host '10.20.12.248' is not allowed to connect to this MySQL server in C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('10.20.30.170', 'radius', 'radius', 'radiusdb', 3306, '', 0)
+#1 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\sirasti\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\sirasti\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sirasti\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\sirasti\app\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\sirasti\app\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+#8 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+#9 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+#10 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sirasti\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\sirasti\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\sirasti\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\sirasti\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host '10.20.12.248' is not allowed to connect to this MySQL server in C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\sirasti\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\sirasti\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\sirasti\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\sirasti\app\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\sirasti\app\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+#7 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+#8 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+#9 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sirasti\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sirasti\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\sirasti\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\sirasti\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-09-24 04:28:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host '10.20.12.248' is not allowed to connect to this MySQL server
+[Method: GET, Route: radius/]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `userinfo`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti\\public\\index.php')
+INFO - 2024-09-24 04:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-24 04:28:15 --> Error connecting to the database: mysqli_sql_exception: Host '10.20.12.248' is not allowed to connect to this MySQL server in C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('10.20.30.170', 'radius', 'radius', 'radiusdb', 3306, '', 0)
+#1 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\sirasti\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\sirasti\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sirasti\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\sirasti\app\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\sirasti\app\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+#8 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+#9 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+#10 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sirasti\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\sirasti\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\sirasti\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\sirasti\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host '10.20.12.248' is not allowed to connect to this MySQL server in C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\sirasti\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\sirasti\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\sirasti\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\sirasti\app\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\sirasti\app\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+#7 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+#8 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+#9 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sirasti\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sirasti\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\sirasti\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\sirasti\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-09-24 04:28:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host '10.20.12.248' is not allowed to connect to this MySQL server
+[Method: GET, Route: radius/]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `userinfo`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti\\public\\index.php')
+INFO - 2024-09-24 04:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-24 04:28:15 --> Error connecting to the database: mysqli_sql_exception: Host '10.20.12.248' is not allowed to connect to this MySQL server in C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('10.20.30.170', 'radius', 'radius', 'radiusdb', 3306, '', 0)
+#1 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\sirasti\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\sirasti\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sirasti\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\sirasti\app\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\sirasti\app\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+#8 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+#9 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+#10 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sirasti\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\sirasti\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\sirasti\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\sirasti\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host '10.20.12.248' is not allowed to connect to this MySQL server in C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\sirasti\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\sirasti\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\sirasti\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\sirasti\app\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\sirasti\app\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+#7 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+#8 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+#9 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sirasti\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sirasti\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\sirasti\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\sirasti\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-09-24 04:28:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host '10.20.12.248' is not allowed to connect to this MySQL server
+[Method: GET, Route: radius/]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `userinfo`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti\\public\\index.php')
+INFO - 2024-09-24 04:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 04:35:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-24 04:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-24 04:35:27 --> Error connecting to the database: mysqli_sql_exception: Host '10.20.12.248' is not allowed to connect to this MySQL server in C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('10.20.30.170', 'radius', 'radius', 'radiusdb', 3306, '', 0)
+#1 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\sirasti\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\sirasti\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sirasti\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\sirasti\app\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\sirasti\app\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+#8 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+#9 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+#10 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sirasti\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\sirasti\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\sirasti\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\sirasti\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host '10.20.12.248' is not allowed to connect to this MySQL server in C:\xampp\htdocs\sirasti\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\sirasti\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\sirasti\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\sirasti\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\sirasti\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\sirasti\app\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\sirasti\app\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+#7 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+#8 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+#9 C:\xampp\htdocs\sirasti\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sirasti\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sirasti\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\sirasti\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\sirasti\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-09-24 04:35:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host '10.20.12.248' is not allowed to connect to this MySQL server
+[Method: GET, Route: radius/]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `userinfo`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Modules\Radius\Models\UserInfoModel.php(31): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Modules\Radius\Controllers\MacAddressController.php(35): App\Modules\Radius\Models\UserinfoModel->getMAC()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Modules\Radius\Controllers\MacAddressController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Radius\Controllers\MacAddressController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sirasti\\public\\index.php')
