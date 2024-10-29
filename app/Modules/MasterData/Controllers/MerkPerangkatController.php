@@ -49,6 +49,7 @@ class MerkPerangkatController extends Controller
             $output .= '</td>';
             $output .= '</tr>';
             // $output .= '<tr> <td>' . $data['nama_merk'] . '</td></tr>';
+
         }
 
         echo $output;
