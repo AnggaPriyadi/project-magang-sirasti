@@ -246,7 +246,7 @@ if (isset($arrayUser['isLoggedIn']) && $arrayUser['isLoggedIn'] === true) {
                                 buttons: [{
                                         extend: 'print',
                                         text: 'Cetak',
-                                        title: 'Asset Manajemen Infrastruktur IT',
+                                        title: 'Daftar Asset Jenis Perangkat',
                                         exportOptions: {
                                             columns: [0, 1]
                                         }
@@ -256,7 +256,7 @@ if (isset($arrayUser['isLoggedIn']) && $arrayUser['isLoggedIn'] === true) {
                                         exportOptions: {
                                             columns: [0, 1]
                                         },
-                                        title: 'Asset Manajemen Infrastruktur IT',
+                                        title: 'Daftar Asset Jenis Perangkat',
                                         customize: function(xlsx) {
                                             var sheet = xlsx.xl.worksheets['sheet1.xml'];
 
@@ -268,14 +268,14 @@ if (isset($arrayUser['isLoggedIn']) && $arrayUser['isLoggedIn'] === true) {
                                         exportOptions: {
                                             columns: [0, 1]
                                         },
-                                        title: 'Asset Manajemen Infrastruktur IT',
+                                        title: 'Daftar Asset Jenis Perangkat',
                                     },
                                     {
                                         extend: 'pdfHtml5',
                                         exportOptions: {
                                             columns: [0, 1]
                                         },
-                                        title: 'Asset Manajemen Infrastruktur IT',
+                                        title: 'Daftar Asset Jenis Perangkat',
                                     },
 
                                 ],
@@ -496,7 +496,7 @@ if (isset($arrayUser['isLoggedIn']) && $arrayUser['isLoggedIn'] === true) {
                     doc.text("(....................................................)", 205, finalY + 60);
 
 
-                    doc.save("Asset Manajemen Infrastruktur IT [" + today + "].pdf")
+                    doc.save("Daftar Asset Jenis Perangkat [" + today + "].pdf")
                 }
             </script>
 
