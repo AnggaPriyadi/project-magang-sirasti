@@ -41,6 +41,7 @@ $routes->group('jenis-perangkat', ['namespace' => 'App\Modules\MasterData\Contro
     $routes->post('update/(:num)', 'JenisPerangkatController::update/$1');
     $routes->post('delete/(:num)', 'JenisPerangkatController::delete/$1');
     $routes->get('displayData', 'JenisPerangkatController::displayData');
+    $routes->get('displayDataExport', 'JenisPerangkatController::displayDataExport');
 });
 
 // Route untuk Merk Perangkat
@@ -52,6 +53,7 @@ $routes->group('merk-perangkat', ['namespace' => 'App\Modules\MasterData\Control
     $routes->post('update/(:num)', 'MerkPerangkatController::update/$1');  // Proses update data
     $routes->post('delete/(:num)', 'MerkPerangkatController::delete/$1');  // Proses hapus data
     $routes->get('displayData', 'MerkPerangkatController::displayData');
+    $routes->get('displayDataExport', 'MerkPerangkatController::displayDataExport');
 });
 
 // Route untuk Asset Management
