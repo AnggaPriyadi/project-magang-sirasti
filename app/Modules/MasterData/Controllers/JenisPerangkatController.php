@@ -55,6 +55,41 @@ class JenisPerangkatController extends Controller
         echo $output;
     }
 
+    public function displayDataExport()
+    {
+        $jenisPerangkat = $this->jenisperangkatModel->findAll();
+
+
+        // $arrayUser =  session('isLoggedIn');
+
+
+        $roleUser = session('role');
+
+        $output = '';
+        $no = 1;
+
+
+        foreach ($jenisPerangkat as $data) {
+            // if ($roleUser == 'admin') {
+            //     $display = '';
+            // } else {
+            //     $display = 'style="display:none"';
+            // }
+
+            $output .= '<tr id="' . $data->id_jenis . '">';
+            $output .= '<td class="table-plus">' . $no++ . '</td>';
+            $output .= '<td>' . $data->nama_jenis_perangkat . '</td>';
+            // $output .= '<td ' . $display . '>';
+            // $output .= '<button ' . $display . ' type="button" class="btn btn-info btn-sm editJenis" style="margin-right: 5px;" data-id="' . $data->id_jenis . '" data-nama_jenis_perangkat="' . $data->nama_jenis_perangkat . '"><i class="dw dw-edit-2"></i> Edit</button>';
+            // $output .= '<button ' . $display . ' type="button" class="btn btn-danger btn-sm deleteJenis" data-id="' . $data->id_jenis . '"><i class="dw dw-delete-3"></i> Hapus</button>';
+            // $output .= '</td>';
+            $output .= '</tr>';
+            // $output .= '<tr> <td>' . $data['nama_merk'] . '</td></tr>';
+        }
+
+        echo $output;
+    }
+
     public function create()
     {
         return view('/jenis-perangkat');

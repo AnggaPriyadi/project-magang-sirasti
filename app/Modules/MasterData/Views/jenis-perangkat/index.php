@@ -1,14 +1,17 @@
 <?php
 $session = session();
-// Mendapatkan seluruh data session, termasuk informasi user
+
+// $display = 'style="display:none;"'; // Default hidden
+// $addClass = 'hidden'; // Default class hidden
+
 $arrayUser = $session->get();
 
-// Cek apakah data pengguna ada di session
+
 if (isset($arrayUser['isLoggedIn']) && $arrayUser['isLoggedIn'] === true) {
-    // Mendapatkan role pengguna dari data session
+
     $roleUser = $arrayUser['role'];
 
-    // Logika penentuan tampilan berdasarkan role pengguna
+
     if ($roleUser == 'admin') {
         $display = '';
         $addClass = '';
@@ -66,6 +69,18 @@ if (isset($arrayUser['isLoggedIn']) && $arrayUser['isLoggedIn'] === true) {
                         </thead>
                         <tbody id="data-jenis_perangkat">
 
+
+                        </tbody>
+                    </table>
+
+                    <table style="display:none" id="table-export">
+                        <thead>
+                            <tr>
+                                <th class="table-plus" scope="col">#</th>
+                                <th scope="col">Jenis Perangkat</th>
+                            </tr>
+                        </thead>
+                        <tbody id="data-export">
 
                         </tbody>
                     </table>
@@ -155,6 +170,15 @@ if (isset($arrayUser['isLoggedIn']) && $arrayUser['isLoggedIn'] === true) {
             </div>
 
             <script>
+                $(document).ready(function() {
+
+                    setTimeout(() => {
+
+                        displayData();
+                    }, time);
+                    displayDataExport();
+                })
+
                 function forceKeyPressUppercase(e) {
                     var charInput = e.keyCode;
                     if ((charInput >= 97) && (charInput <= 122)) {
@@ -172,16 +196,6 @@ if (isset($arrayUser['isLoggedIn']) && $arrayUser['isLoggedIn'] === true) {
 
                 document.getElementById("nama_jenisTambah").addEventListener("keypress", forceKeyPressUppercase, false);
                 document.getElementById("nama_jenis").addEventListener("keypress", forceKeyPressUppercase, false);
-            </script>
-
-            <script>
-                $(document).ready(function() {
-
-                    setTimeout(() => {
-
-                        displayData();
-                    }, time);
-                })
 
                 function displayData() {
                     $("#data-jenis_perangkat").LoadingOverlay("show", {
@@ -228,9 +242,63 @@ if (isset($arrayUser['isLoggedIn']) && $arrayUser['isLoggedIn'] === true) {
                                     },
 
                                 },
+                                dom: 'Bfrtip',
+                                buttons: [{
+                                        extend: 'print',
+                                        text: 'Cetak',
+                                        title: 'Asset Manajemen Infrastruktur IT',
+                                        exportOptions: {
+                                            columns: [0, 1]
+                                        }
+                                    },
+                                    {
+                                        extend: 'excelHtml5',
+                                        exportOptions: {
+                                            columns: [0, 1]
+                                        },
+                                        title: 'Asset Manajemen Infrastruktur IT',
+                                        customize: function(xlsx) {
+                                            var sheet = xlsx.xl.worksheets['sheet1.xml'];
+
+                                            $('c[r=A1] t', sheet).attr('s', '22');
+                                        }
+                                    },
+                                    {
+                                        extend: 'csvHtml5',
+                                        exportOptions: {
+                                            columns: [0, 1]
+                                        },
+                                        title: 'Asset Manajemen Infrastruktur IT',
+                                    },
+                                    {
+                                        extend: 'pdfHtml5',
+                                        exportOptions: {
+                                            columns: [0, 1]
+                                        },
+                                        title: 'Asset Manajemen Infrastruktur IT',
+                                    },
+
+                                ],
                             });
                             $("#data-jenis_perangkat").LoadingOverlay("hide");
-                        }
+                        },
+                        error: function(err) {
+                            console.log(err)
+                        },
+                    });
+                }
+
+                function displayDataExport() {
+                    $.ajax({
+                        type: 'get',
+                        dataType: 'html',
+                        url: 'jenis-perangkat/displayDataExport',
+                        success: function(response) {
+                            $('#data-export').html(response);
+                        },
+                        error: function(err) {
+                            console.log(err)
+                        },
                     });
                 }
 
@@ -262,6 +330,7 @@ if (isset($arrayUser['isLoggedIn']) && $arrayUser['isLoggedIn'] === true) {
                                 timer: 2000,
                             })
                             displayData();
+                            displayDataExport();
                         }
                     });
                     return false;
@@ -303,6 +372,7 @@ if (isset($arrayUser['isLoggedIn']) && $arrayUser['isLoggedIn'] === true) {
                             })
 
                             displayData();
+                            displayDataExport();
                         }
                     });
                     return false;
@@ -340,10 +410,94 @@ if (isset($arrayUser['isLoggedIn']) && $arrayUser['isLoggedIn'] === true) {
                             })
 
                             displayData();
+                            displayDataExport();
                         }
                     });
                     return false;
                 };
+
+                function exportPDF() {
+
+                    var doc = new jsPDF('landscape')
+
+                    var header = function(data) {
+                        doc.setFontSize(11);
+                        doc.setTextColor(40);
+                        doc.setFontStyle('times');
+                        doc.text("ASSET INFRASTRUKTUR IT", 120, 10);
+                        doc.text("PT. INDUSTRI TELEKOMUNIKASI INDONESIA (INTI)", 100, 17);
+                    }
+
+                    doc.autoTable({
+                        margin: {
+                            top: 23,
+                            left: 10,
+                            right: 10,
+                            bottom: 50
+                        },
+                        html: '#table-export',
+                        theme: 'grid',
+                        headStyles: {
+                            fillColor: "#efefef",
+                            textColor: "black",
+                            lineWidth: 0.1
+                        },
+                        styles: {
+                            font: "Times",
+                            lineColor: "black"
+                        },
+                        didDrawPage: header,
+                    })
+
+                    var today = new Date();
+                    var dd = String(today.getDate()).padStart(2, '0');
+                    var mm = String(today.getMonth() + 1).padStart(2, '0');
+                    if (mm == 0o1) {
+                        mm = 'Januari'
+                    } else if (mm == 0o2) {
+                        mm = 'Februari'
+                    } else if (mm == 0o3) {
+                        mm = 'Maret'
+                    } else if (mm == 0o4) {
+                        mm = 'April'
+                    } else if (mm == 0o5) {
+                        mm = 'Mei'
+                    } else if (mm == 0o6) {
+                        mm = 'Juni'
+                    } else if (mm == 0o7) {
+                        mm = 'Juli'
+                    } else if (mm == 8) {
+                        mm = 'Agustus'
+                    } else if (mm == 9) {
+                        mm = 'September'
+                    } else if (mm == 10) {
+                        mm = 'Oktober'
+                    } else if (mm == 11) {
+                        mm = 'November'
+                    } else if (mm == 12) {
+                        mm = 'Desember'
+                    }
+
+                    var yyyy = today.getFullYear();
+
+                    today = dd + ' ' + mm + ' ' + yyyy;
+                    let finalY = doc.previousAutoTable.finalY;
+                    doc.setFontSize(12);
+                    doc.setFontStyle('times');
+                    doc.text("Bandung, " + today, 212, finalY + 20);
+                    doc.setFontSize(11);
+                    doc.setFontStyle('times');
+                    doc.text("Penanggung Jawab", 219, finalY + 25);
+                    doc.setFontSize(11);
+                    doc.setFontStyle('times');
+                    doc.text("Kepala Infrastruktur TI", 216, finalY + 30);
+                    doc.setFontSize(12);
+                    doc.setFontStyle('times');
+                    doc.text("(....................................................)", 205, finalY + 60);
+
+
+                    doc.save("Asset Manajemen Infrastruktur IT [" + today + "].pdf")
+                }
             </script>
 
             <?= $this->endSection(); ?>

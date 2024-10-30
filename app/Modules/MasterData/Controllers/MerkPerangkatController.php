@@ -55,6 +55,28 @@ class MerkPerangkatController extends Controller
         echo $output;
     }
 
+    public function displayDataExport()
+    {
+        $merkPerangkat = $this->merkperangkatModel->findAll();
+
+
+        $roleUser = session('role');
+
+        $output = '';
+        $no = 1;
+
+
+        foreach ($merkPerangkat as $data) {
+
+            $output .= '<tr id="' . $data->id_merk . '">';
+            $output .= '<td class="table-plus">' . $no++ . '</td>';
+            $output .= '<td>' . $data->nama_merk . '</td>';
+            $output .= '</tr>';
+        }
+
+        echo $output;
+    }
+
     public function create()
     {
         return view('/merk-perangkat');
