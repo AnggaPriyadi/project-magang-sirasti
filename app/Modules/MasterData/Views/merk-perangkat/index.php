@@ -70,7 +70,7 @@ if (isset($arrayUser['isLoggedIn']) && $arrayUser['isLoggedIn'] === true) {
                         </tbody>
                     </table>
 
-                    <table>
+                    <table style="display:none" id="table-export">
                         <thead>
                             <tr>
                                 <th class="table-plus" scope="col">#</th>
