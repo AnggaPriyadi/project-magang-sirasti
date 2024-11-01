@@ -33,7 +33,7 @@ $routes->group('radius', ['filter' => 'auth', 'namespace' => 'App\Modules\Radius
 });
 
 // Route untuk Jenis Perangkat
-$routes->group('jenis-perangkat', ['namespace' => 'App\Modules\MasterData\Controllers'], function ($routes) {
+$routes->group('jenis-perangkat', ['filter' => 'auth', 'namespace' => 'App\Modules\MasterData\Controllers'], function ($routes) {
     $routes->get('/', 'JenisPerangkatController::index');
     $routes->get('create', 'JenisPerangkatController::create');
     $routes->post('store', 'JenisPerangkatController::store');
@@ -45,7 +45,7 @@ $routes->group('jenis-perangkat', ['namespace' => 'App\Modules\MasterData\Contro
 });
 
 // Route untuk Merk Perangkat
-$routes->group('merk-perangkat', ['namespace' => 'App\Modules\MasterData\Controllers'], function ($routes) {
+$routes->group('merk-perangkat', ['filter' => 'auth', 'namespace' => 'App\Modules\MasterData\Controllers'], function ($routes) {
     $routes->get('/', 'MerkPerangkatController::index');  // Menampilkan daftar merk perangkat
     $routes->get('create', 'MerkPerangkatController::create');  // Halaman form tambah merk perangkat
     $routes->post('store', 'MerkPerangkatController::store');   // Proses penyimpanan data baru
@@ -57,7 +57,7 @@ $routes->group('merk-perangkat', ['namespace' => 'App\Modules\MasterData\Control
 });
 
 // Route untuk Asset Management
-$routes->group('asset-management', ['namespace' => 'App\Modules\AssetManagement\Controllers'], function ($routes) {
+$routes->group('asset-management', ['filter' => 'auth', 'namespace' => 'App\Modules\AssetManagement\Controllers'], function ($routes) {
     $routes->get('/', 'AssetManagementController::index');
     $routes->get('displayData', 'AssetManagementController::displayData');
     $routes->get('displayDataExport', 'AssetManagementController::displayDataExport');
